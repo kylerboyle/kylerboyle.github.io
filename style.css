@@ -7,7 +7,7 @@ html {
 body {
     margin: 0;
     font-size: 14px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 20px;
     color: #333333;
     background-color: #ffffff;
@@ -111,7 +111,7 @@ a img {
     font-size:30px;
     background: #ccc;
     height: 700px;
-    font-family: 'Consolas', 'Comic Sans MS';
+    font-family: 'Inconsolata', 'Comic Sans MS';
     text-align: left;
     font-size:15px;
     color: #fafafa;
