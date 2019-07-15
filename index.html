@@ -42,7 +42,7 @@
                     <div id="code">
                         <div id="console">
                             &gt; Kyler.getLocation()<br/>
-                            <span class="answer">&nbsp;&nbsp;=&gt; "Chicago, IL"<br/><br/></span>
+                            <span class="answer">&nbsp;&nbsp;=&gt; "Cupertino, CA"<br/><br/></span>
                             &gt; Kyler.getUniversity()<br/>
                             <span class="answer">&nbsp;&nbsp;=&gt; "University of Illinois at Chicago"<br/><br/></span>
                             &gt; Kyler.getMajor()<br/>
@@ -52,13 +52,13 @@
                             &gt; Kyler.getKeyInterests()<br/>
                             <span class="answer">&nbsp;&nbsp;=&gt; ["code", "wine", "coffee", "music", "cooking", "trading"]<br/><br/></span>
                             &gt; Kyler.getIndustries()<br/>
-                            <span class="answer">&nbsp;&nbsp;=&gt; ["Mobile Development", "Financial Markets", "Defense"]<br/><br/></span>
+                            <span class="answer">&nbsp;&nbsp;=&gt; ["Mobile Development", "Financial Markets", "Consumer Electronics"]<br/><br/></span>
                             &gt; Kyler.getWorkExperience().mostRecent<br/>
                             <span class="answer">&nbsp;&nbsp;=&gt; Most Recent Work Experience<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; company: "PNT Financial"<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; role: "Software Engineering Intern"<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; startDate: "April 2018"<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; endDate: "August 2018"<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; company: "Apple Inc"<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; role: "Software Engineer"<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; startDate: "June 2019"<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; endDate: "KeyError: 'endDate'"<br/>
                             <br/></span>
                             &gt; Kyler.getResume()<br/>
                             <span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="kylerboyle.pdf">kylerboyle.pdf</a>"<br/><br/></span>
@@ -77,6 +77,52 @@
                 <!-- Resume -->
                 <div id="resume"><div class="inner">
                     <p class="tagline">Resume</p>
+
+                    <!-- Resume : Work Experience -->
+                    <p class="section-tagline" style="text-align:left;">Work Experience</p>
+
+                    <!-- Resume : Work Experience : Apple-->
+                    <p>
+                    <a target="_blank" href="http://www.apple.com"><img class="icon" src="img/companies/apple.png"></a><b>Apple Inc.</b>
+                    <span class="right"><i>June 2019 - </i></span><br/>
+                    <b>Software Engineer</b>
+                    <span class="right"><i>Cupertino, CA</i></span><br/><br/>
+                    </p>
+                    <br/>
+                    
+                    <!-- Resume : Work Experience : PNT -->
+                    <p>
+                    <a target="_blank" href="http://www.pntfin.com"><img class="icon" src="img/companies/pnt.png"></a><b>PNT Financial</b>
+                    <span class="right"><i>Summer 2018</i></span><br/>
+                    <b>Software Engineering Intern</b>
+                    <span class="right"><i>Chicago, IL</i></span><br/><br/>
+                    Worked with a quantitative analyst and traders to search for trends in the futures markets using Python and the pandas/numpy libraries. Wrote multiple pieces of software to test trading strategies on historic futures data.<br/><br/>
+                    <span class="skill">Python</span><span class="skill">Pandas</span><span class="skill">Trading</span><span class="skill">Big Data</span>
+                    </p>
+                    <br/>
+
+                    <!-- Resume : Work Experience : The Morey Corporation -->
+                    <p>
+                    <a target="_blank" href="http://www.moreycorp.com"><img class="icon" src="img/companies/morey.png"></a><b>The Morey Corporation</b>
+                    <span class="right"><i>2017 - 2018</i></span><br/>
+                    <b>Engineering Design Intern</b>
+                    <span class="right"><i>Woodridge, IL</i></span><br/><br/>
+                    Worked with a diverse team of engineers to develop a proprietary radio device and transmission protocol. Wrote system requirement specifications and system feature requirements with the systems engineers. Designed test cases and wrote testing reports on the performance of the device.<br/><br/>
+                    <span class="skill">C</span><span class="skill">Silabs</span><span class="skill">Systems Engineering</span><span class="skill">Hardware Design</span><span class="skill">Embedded Programming</span>
+                    </p>
+                    <br/>
+
+                    <!-- Resume : Work Experience : Apple -->
+                    <p>
+                    <a target="_blank" href="http://www.apple.com"><img class="icon" src="img/companies/apple.png"></a><b>Apple Inc.</b>
+                    <span class="right"><i>2016 - 2018</i></span><br/>
+                    <b>Technical Expert</b>
+                    <span class="right"><i>Chicago, IL</i></span><br/><br/>
+                    Worked at the flagship Michigan Avenue location as a mobile device technician, diagnosing and repairing hardware and software issues while rebuilding customer relationships.<br/><br/>
+                    <span class="skill">Mobile Device Hardware</span><span class="skill">Customer Service</span><span class="skill">Sales</span>
+                    </p>
+                    <br/>
+
                     <!-- Resume : Education -->
                     <p class="section-tagline" style="text-align:left;">Education</p>
 
@@ -112,41 +158,7 @@
                     </p>
                     <br/>
 
-                    <!-- Resume : Work Experience -->
-                    <p class="section-tagline" style="text-align:left;">Work Experience</p>
-                    
-                    <!-- Resume : Work Experience : PNT -->
-                    <p>
-                    <a target="_blank" href="http://www.pntfin.com"><img class="icon" src="img/companies/pnt.png"></a><b>PNT Financial</b>
-                    <span class="right"><i>Summer 2018</i></span><br/>
-                    <b>Software Engineering Intern</b>
-                    <span class="right"><i>Chicago, IL</i></span><br/><br/>
-                    Worked with a quantitative analyst and traders to search for trends in the futures markets using Python and the pandas/numpy libraries. Wrote multiple pieces of software to test trading strategies on historic futures data.<br/><br/>
-                    <span class="skill">Python</span><span class="skill">Pandas</span><span class="skill">Trading</span><span class="skill">Big Data</span>
-                    </p>
-                    <br/>
 
-                    <!-- Resume : Work Experience : The Morey Corporation -->
-                    <p>
-                    <a target="_blank" href="http://www.moreycorp.com"><img class="icon" src="img/companies/morey.png"></a><b>The Morey Corporation</b>
-                    <span class="right"><i>2017 - 2018</i></span><br/>
-                    <b>Engineering Design Intern</b>
-                    <span class="right"><i>Woodridge, IL</i></span><br/><br/>
-                    Worked with a diverse team of engineers to develop a proprietary radio device and transmission protocol. Wrote system requirement specifications and system feature requirements with the systems engineers. Designed test cases and wrote testing reports on the performance of the device.<br/><br/>
-                    <span class="skill">C</span><span class="skill">Silabs</span><span class="skill">Systems Engineering</span><span class="skill">Hardware Design</span><span class="skill">Embedded Programming</span>
-                    </p>
-                    <br/>
-
-                    <!-- Resume : Work Experience : Apple -->
-                    <p>
-                    <a target="_blank" href="http://www.apple.com"><img class="icon" src="img/companies/apple.png"></a><b>Apple Inc.</b>
-                    <span class="right"><i>2016 - 2018</i></span><br/>
-                    <b>Technical Expert</b>
-                    <span class="right"><i>Chicago, IL</i></span><br/><br/>
-                    Worked at the flagship Michigan Avenue location as a mobile device technician, diagnosing and repairing hardware and software issues while rebuilding customer relationships.<br/><br/>
-                    <span class="skill">Mobile Device Hardware</span><span class="skill">Customer Service</span><span class="skill">Sales</span>
-                    </p>
-                    <br/>
                     <br/><br/><br/><br/>
                 </div></div>
 
